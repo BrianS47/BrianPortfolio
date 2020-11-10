@@ -1,3 +1,5 @@
+/* START OF TOP BAR */
+
 #title {
   
   color:#00a8d3;
@@ -13,6 +15,9 @@
   margin-top: 0px;
 }
 
+/* END OF TOP BAR */
+
+/* START OF BODY */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 0px;
@@ -92,6 +97,22 @@ a:link {
 text-decoration: none;
 }
 
+a:visited {
+ text-decoration: none;
+  color: black;
+}
+
+a:hover {
+ color: #0039d6; 
+}
+
+a:active {
+ color: #d8dded; 
+}
+
+
+/*END OF BODY */
+/* START OF FOOTER */
 
 footer {
 background-color: #4d4d4d;
@@ -105,3 +126,5 @@ h3 {
   color: white;
   font-size: 20px;
 }
+  
+  /* END OF FOOTER */
